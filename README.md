@@ -1,1 +1,0 @@
-# umerpatel.github.io
