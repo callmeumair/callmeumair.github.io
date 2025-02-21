@@ -1,100 +1,98 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Portfolio</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="styles.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umer's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="is-preload">
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Umer, a Full Stack Developer & Data Enthusiast</p>
+        <button>Learn More</button>
+    </section>
 
-    <!-- Wrapper -->
-    <div id="wrapper" class="fade-in">
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Umer, a dedicated and passionate Full Stack Developer with a strong background in creating scalable and efficient web applications. With expertise in HTML, CSS, JavaScript, React, Node.js, Express, Python, SQL, and Tableau, I bring a comprehensive skill set to the table. My passion for technology drives me to continuously learn and adapt to the latest trends and best practices.
 
-        <!-- Intro -->
-        <div id="intro">
-            <h1>Frontend Developer Portfolio</h1>
-            <p>A front-end developer specializes in creating and designing the user interface (UI) and user experience (UX) of websites and web applications.</p>
-            <a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a>
+            Throughout my career, I have developed a keen eye for detail and a deep understanding of user experience, ensuring that my projects are both visually appealing and user-friendly. I thrive in collaborative environments where I can leverage my problem-solving skills to deliver high-quality solutions.
+            
+            As a data enthusiast, I enjoy working with data visualization tools like Tableau to uncover insights and tell compelling stories. My goal is to craft innovative digital experiences that make a lasting impact. I'm excited to collaborate with like-minded professionals and contribute to projects that push the boundaries of what's possible.
+            
+            Feel free to connect with me on GitHub, LinkedIn, or via email to explore potential collaborations or discuss new ideas!</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Tableau</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Task-manager</h3>
+            <p>The Task Manager is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). 
+                It is designed to help users manage their tasks efficiently by providing a simple and intuitive interface for creating, updating, and deleting tasks.</p>
+                <a href="https://github.com/callmeumair/Task-manager" target="_blank">View Project</a>
         </div>
-
-        <!-- Header -->
-        <header id="header">
-            <a href="index.html" class="logo">Projects</a>
-        </header>
-
-        <!-- Main -->
-        <div id="main">
-
-            <!-- Featured Post -->
-            <article class="post featured">
-                <header class="major">
-                    <h2><a href="#">Netflix Clone</a></h2>
-                    <p>A Netflix clone is a web application designed to emulate the core features and functionality of the popular streaming service Netflix.</p>
-                </header>
-                <a href="#" class="image main"><img src="images/netflix.jpg" alt="Netflix Clone" /></a>
-                <ul class="actions special">
-                    <li><a href="https://github.com/callmeumair/Netflix-Clone.git" class="button large">View Project</a></li>
-                </ul>
-            </article>
-
-            <!-- Posts -->
-            <section class="posts">
-                <article>
-                    <header>
-                        <h2><a href="#">Password Manager</a></h2>
-                    </header>
-                    <a href="#" class="image fit"><img src="images/password.jpg" alt="Password Manager" /></a>
-                    <p>It is a user-friendly password manager application designed to simplify the process of storing, organizing, and securely accessing your sensitive login credentials.</p>
-                    <ul class="actions special">
-                        <li><a href="https://github.com/callmeumair/Password-Manager.git" class="button">View Project</a></li>
-                    </ul>
-                </article>
-
-                <!-- Add more project articles here -->
-            </section>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p>Project description here.</p>
+            <a href="https://github.com/callmeumair/Task-manager" target="_blank">View Project</a>
         </div>
-
-        <!-- Footer -->
-        <footer id="footer">
-            <section class="split contact">
-                <section class="alt">
-                    <h3>Address</h3>
-                    <p>India</p>
-                </section>
-                <section>
-                    <h3>Phone</h3>
-                    <p><a href="#">(+91) 90222 64804</a></p>
-                </section>
-                <section>
-                    <h3>Email</h3>
-                    <p><a href="#">umerpatel1540@gmail.com</a></p>
-                </section>
-                <section>
-                    <h3>Social</h3>
-                    <ul class="icons alt">
-                        <li><a href="https://twitter.com/Umerpatel11" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="https://www.linkedin.com/in/umerpatel/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                        <li><a href="https://github.com/callmeumair" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-                    </ul>
-                </section>
-            </section>
-        </footer>
-
-        <!-- Copyright -->
-        <div id="copyright">
-            <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+        <div class="project-card">
+            <h3>Social-Media-App</h3>
+            <p>This project is a full-stack social media platform that allows users to post updates, follow other users, and engage in real-time chat. 
+                Built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) and WebSockets, it showcases my ability to develop dynamic, real-time web applications.</p>
+            <a href="https://github.com/callmeumair/Social-Media-App" target="_blank">View Project</a>
         </div>
-    </div>
+        <div class="project-card">
+            <h3>E-Commerce</h3>
+            <p>The application is built using modern technologies, including React.js for the frontend, Node.js and Express.js for the backend, and MongoDB for the database.
+                User authentication is implemented using JSON Web Tokens (JWT) to ensure secure access.</p>
+            <a href="https://github.com/callmeumair/E-Commerce" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Blog Platform with CRUD-Operations</h3>
+            <p>This project is a full-stack blog platform that allows users to create, read, update, and delete blog posts. Built using the MERN stack (MongoDB, Express.js, React.js, and Node.js).
+                It showcases my ability to develop dynamic web applications with user authentication and database integration.</p>
+            <a href="https://github.com/callmeumair/Blog-Platform-with-CRUD-Operations" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Netflix Clone</h3>
+            <p>Project description </p>
+            <a href="https://github.com/callmeumair/Netflix-Clone" target="_blank">View Project</a>
+        </div>
+    </section>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+   
+     <!-- Links Section -->
+     <section id="links">
+        <h2>Find Me Online</h2>
+        <ul class="link-list">
+            <li><a href="https://github.com/callmeumair" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/umerpatel/" target="_blank">LinkedIn</a></li>
+            <li><a href="mailto:umerpatel1540@gmail.com" target="_blank">Gmail</a></li>
+        </ul>
+    </section>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
